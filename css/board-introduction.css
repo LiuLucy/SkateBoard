@@ -1,21 +1,22 @@
 .list{
     margin-top: 50px;
 }
+.list a{
+    color: white;
+}
 .text-title{
   margin-top: 50px;
   text-align: center;
   font-size: 20px;
   line-height: 35px;
   width: 100%;
-  background-color: rgba(0, 0, 0, 0.5);
+
 }
-.text-title p{
-  color: white;
-}
+
 .skateboard-board{
     text-align: center;
 }
-img{
+.skateboard-board img{
     margin-top: 20px;
 }
 h1{
@@ -30,7 +31,9 @@ h1{
 .longboard-board{
     text-align: center;
 }
-
+.longboard-board img{
+    margin-top: 20px;
+}
 .longboard-board p{
     margin-top: 20px;
     font-size: 18px;
@@ -39,8 +42,20 @@ h1{
 .Cuiser-board{
   text-align: center;
 }
+.Cuiser-board img{
+    margin-top: 20px;
+}
 .Cuiser-board p{
     margin-top: 10px;
     font-size: 18px;
     line-height: 30px;
+}
+.active{
+
+}
+.list-group-item{
+    background-color: rgba(50, 50, 50, 0.5);
+}
+.title-list{
+    background-color: rgb(10, 10, 10);
 }
