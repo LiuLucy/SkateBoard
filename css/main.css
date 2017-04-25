@@ -5,12 +5,13 @@
 
 body {
   background-color: #dcdcdc;
-
 }
+
 #img-main img{
   width: 100%;
   height: 100%;
 }
+
 .text-font-family {
   font-family: 微軟正黑體, sans-serif;
 }
@@ -20,10 +21,26 @@ body {
   height: 200px;
 }
 
-.background{
-  background-image:url('../images/background_tutorial.png');
-  width: 100%;
-  height: 100%;
-  z-index: -1;
-  position:fixed
+#skateboard:hover img,#longboard:hover img,#cuiserboard:hover img {
+  opacity: 0.3;
+}
+
+#skateboard:hover .middle,#longboard:hover .middle,#cuiserboard:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  color: #000000;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%)
 }
