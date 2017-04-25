@@ -1,7 +1,9 @@
 h3 {
   text-align: center;
 }
-
+.thumbnail{
+  background-color: rgba(125,125,125, 0.5);
+}
 .thumbnail img {
   width: 242px;
   height: 200px;
@@ -10,7 +12,6 @@ h3 {
 .thumbnail .caption {
   position: relative;
 }
-
 .thumbnail a {
   position: absolute;
   left: 40%;
