@@ -1,14 +1,17 @@
 .video-spacing{
    margin-top: 50px;
+   padding: 0px;
 }
 .video-title{
   margin-top: 50px;
   border-width: 2px 0px 2px 0px;
   border-style: solid;
+  padding: 0px;
 }
 .video-title h1{
     text-align: center;
 }
-.text-background {
-
+.text-background h4 {
+    font-weight: normal;
+    line-height: 23px;
 }
