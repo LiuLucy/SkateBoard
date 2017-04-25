@@ -14,13 +14,16 @@
 #img-logo a{
     float: left;
 }
-
+#img-logo a:hover{
+    position:relative;
+    top:5px;
+}
 nav {
   position:absolute;
 }
 
 nav ul li a:hover {
   position:relative;
-  color:green !important;
+  color:rgb(255, 255, 255); !important;
   top:5px;
 }

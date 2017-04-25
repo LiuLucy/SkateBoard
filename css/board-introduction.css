@@ -1,0 +1,46 @@
+.list{
+    margin-top: 50px;
+}
+.text-title{
+  margin-top: 50px;
+  text-align: center;
+  font-size: 20px;
+  line-height: 35px;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.text-title p{
+  color: white;
+}
+.skateboard-board{
+    text-align: center;
+}
+img{
+    margin-top: 20px;
+}
+h1{
+    border-width: 2px 0px 2px 0px;
+    border-style: solid;
+}
+.skateboard-board p{
+    margin-top: 20px;
+    font-size: 18px;
+    line-height: 30px;
+}
+.longboard-board{
+    text-align: center;
+}
+
+.longboard-board p{
+    margin-top: 20px;
+    font-size: 18px;
+    line-height: 30px;
+}
+.Cuiser-board{
+  text-align: center;
+}
+.Cuiser-board p{
+    margin-top: 10px;
+    font-size: 18px;
+    line-height: 30px;
+}

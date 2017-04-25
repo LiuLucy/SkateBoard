@@ -12,6 +12,7 @@ body {
   height: 100%;
 }
 
+
 .text-font-family {
   font-family: 微軟正黑體, sans-serif;
 }
@@ -43,4 +44,11 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%)
+}
+.text-title{
+  text-align: center;
+  border-width: 2px 0px 2px 0px;
+  border-style: solid;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
