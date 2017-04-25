@@ -14,3 +14,13 @@
 #img-logo a{
     float: left;
 }
+
+nav {
+  position:absolute;
+}
+
+nav ul li a:hover {
+  position:relative;
+  color:green !important;
+  top:5px;
+}
